@@ -1,0 +1,28 @@
+//1. helloName
+
+public String helloName(String name) 
+{
+  return ("Hello "  + name + "!");
+}
+
+
+//2. makeABBA
+
+public String makeAbba(String a, String b) 
+{
+  return (a + b + b + a);
+}
+
+//3. makeTags
+
+public String makeTags(String tag, String word) 
+{
+  return ("<" + tag + ">" + word + "<" + "/" + tag + ">");
+}
+
+//4. firstHalf
+public String firstHalf(String str) 
+{
+  String MiniString = new String(str.substring(0, str.length()/2));
+  return MiniString;
+}
