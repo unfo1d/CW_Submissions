@@ -1,37 +1,32 @@
-//makeOutWord
+//Task 1: makeOutWord
+
 public String makeOutWord(String out, String word) {
-  String miniString = new String(out.substring(0,2));
-  String miniString2 = new String(out.substring(2, 4));
-  return (miniString + word + miniString2);
+  String putInside = (out.substring(0,2) + word + out.substring(2,out.length()));
+  return putInside;
 }
 
+// Task 2: extraEnd
 
-
-
-//ExtraEnd
 public String extraEnd(String str) {
-  return (str.substring(str.length()-2) + str.substring(str.length()-2) + str.substring(str.length()-2));
+  String lastTwo = str.substring(str.length()-2);
+  return lastTwo + lastTwo +lastTwo;
 }
 
+//Task 3: firstTWo
 
-
-
-// firstTwo
 public String firstTwo(String str) {
-  if (str.length() > 2)
-  {
-    return str.substring(0,2);
-  }
-  else 
+  if (str.length() < 2)
   {
     return str;
   }
+  else
+  {
+    return str.substring(0,2);
+  }
 }
 
-
-
-
-//withoutEnd
+// Task 4: withoutEnd
 public String withoutEnd(String str) {
-  return (str.substring(1,str.length()-1));
+    String withoutEnd = str.substring(1,str.length()-1);
+    return withoutEnd;
 }
