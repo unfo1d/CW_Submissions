@@ -1,141 +1,104 @@
-//cigarParty
+//Task 1: cigarParty
 public boolean cigarParty(int cigars, boolean isWeekend) 
 {
-  if (isWeekend == true)
+if (cigars >= 40)
   {
-    if (cigars > 39)
-    {
-      return true;
-    }
+      if (cigars <= 60)
+     {
+        if (isWeekend = false)
+        {
+          return true;
+        }
+     }
+  }
+  else 
+  {
     return false;
   }
-  
-  if (isWeekend == false)
+}
+
+//Task 2: dateFashion
+
+public int dateFashion(int you, int date) 
+{
+  if (you <= 2 || date <=2)
   {
-    if (cigars > 39)
     {
-      if (cigars < 61)
+      return 0;
+    }
+    
+  }
+ else if (you >= 8 || date >= 8)
+    {
+      {
+        return 2;
+      }
+    }
+  else 
+  {
+    return 1;
+  }
+}
+
+// Task 3: squirrelPlay
+public boolean squirrelPlay(int temp, boolean isSummer) 
+{
+if (isSummer == true)
+  { 
+    if (temp >= 60 && temp <= 100)
       {
         return true;
       }
+    else
+    {
       return false;
     }
   }
-return false;
+  else if (temp >= 60 && temp<=90)
+  {
+     return true;
+  }
+    return false;
 }
 
-//dateFashion
-public int dateFashion(int you, int date) 
+
+// Task 4: caughtSpeeding
+
+public int caughtSpeeding(int speed, boolean isBirthday) 
 {
+
+if (isBirthday == true)
+{
+  if (speed >= 86)
+  {
+    return 2;
+  } 
+  else if (speed <= 65)
+  {
+      return 0;
+  }
+  return 1;
   
-  if (you < 3)
+}
+  if(speed >= 81)
+  {
+    return 2;
+  }
+  else if (speed<=60)
   {
     return 0;
   }
-  else if (date < 3)
-  {
-    return 0;
-  }
-  
-  if (you > 7)
-  {
-    return 2;
-  }
-  if (date > 7)
-  {
-    return 2;
-  }
-  else
-  {
-    return 1;
-  }
+  return 1;  
 }
 
-//squirrelPlay
-public boolean squirrelPlay(int temp, boolean isSummer) 
-{
-  if (isSummer == true)
-  {
-    if (temp>59)
-    {
-      if (temp<101)
-      {
-        return true;
-      }
-    }
-    return false;
-  }
-  
-  
-  else 
-  {
-    if (temp>59)
-    {
-      if (temp<91)
-      {
-        return true;
-      }
-    }
-    return false;
-  }
-}
+//Task 5: sortaSum
 
-//caughtSpeeding
-public int caughtSpeeding(int speed, boolean isBirthday)
-{
-  if (isBirthday == false)
-  {
-    if (speed<81)
-    {
-      if (speed<61)
-      {
-        return 0;
-      }
-    return 1;
-    }
-  else if (speed>81)
-  {
-    return 2;
-  }
-  }
-  else
-  {
-    if (speed<86)
-    {
-      if (speed<66)
-      {
-        return 0;
-      }
-    return 1;
-    }
-    else if (speed>86)
-    {
-      return 2;
-    }
-  }
-//exists soley because of negative numbers
-return 1000000;
-}
-
-
-//sortaSum
 public int sortaSum(int a, int b) {
-  if (a+b >9)
+  if (a + b >= 10 && a+b <= 19)
   {
-    if (a+b<20)
-    {
-      return 20;
-    }
+    return 20;
   }
-  if (a+b<10)
-  {
-    return a+b;
-  }
-  if (a+b>20)
-  {
-    return a+b;
-  }
-  else
+  else 
   {
     return a+b;
   }
