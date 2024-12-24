@@ -1,8 +1,3 @@
-public class Main {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		doesSomething('o');
-	}
 	/**
 	 * This method is not static. What does this mean about how the method works? After code tracing, also answer
    	 * the following question: what does this method do?
