@@ -49,11 +49,9 @@ public class Main {
 		/*
 		 * 7. Create a loop that one by one prints out each element in fruitsArr.
 		 */
-		int t = 0;
-		for (int i = fruitsArr.length -1; i >= 0; i-- )
+		for (int i = 0; i < fruitsArr.length; i++)
 		{
-			System.out.println(fruitsArr[t]);
-			t++;
+			System.out.println(fruitsArr[i]);
 		}
 	}
 
