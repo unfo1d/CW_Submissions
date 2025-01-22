@@ -25,16 +25,11 @@ public class Main {
 		 */
 		
 		String[] fruitsArr = new String[5];
-		//null
 		int[] int3Arr = new int[5];
-		//0
 		boolean[] bll2Arr = new boolean[5];
-		//false
 		double[] doub2Arr = new double[5];
-		//0.0
 		Circle[] circ2Arr = new Circle[5];
-		//null
-		
+
 		/*
 		 * 4. Change the 2nd element in fruitsArr to "Bapple" .
 		 */
