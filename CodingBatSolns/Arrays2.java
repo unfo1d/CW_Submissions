@@ -56,7 +56,7 @@ public int sum2(int[] nums) {
   return sum;
 }
 
-//middleway
+//middleWay
 public int[] middleWay(int[] a, int[] b) {
   int[] Idislikecodingbat = {a[1], b[1]};
   return Idislikecodingbat;
