@@ -121,26 +121,6 @@ public int[] biggerTwo(int[] a, int[] b) {
   return a;
 }
 
-//okay this one is just makeMiddle but I misread the instructions and made an array containing all the middle elements not just the 2 in the middle
-//which is arguably cooler so I'm still adding this one
-public int[] makeMiddle(int[] nums) {
-  int arrLength = 0;
-  if (nums.length != 2)
-  {
-  arrLength = nums.length - 2;
-  }
-  else if (nums.length == 2)
-  {
-    return new int[]{nums[0], nums[1]};
-  }
-  int[] copyArr = new int[arrLength];
-  for (int i = 1; i < arrLength + 1; i++)
-  {
-    copyArr[i - 1] = nums[i];
-  }
-  return copyArr;
-}
-
 //makeMiddle
 public int[] makeMiddle(int[] nums) {
   int arrMiddle = (nums.length/2) - 1;
