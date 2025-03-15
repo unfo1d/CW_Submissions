@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class AlgorithmsProject {
 
 	public static void main(String[] args) {
