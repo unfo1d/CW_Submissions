@@ -102,7 +102,7 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 	}
 	/**
 	 * 7. Pass an ArrayList of Integers and a value to be searched for. Return how many times that int shows up in the ArrayList. 
-   * (For example, passing ( {4, 5, 5, 2, 1} , 5) returns 2 because 5 shows up twice)
+         * (For example, passing ( {4, 5, 5, 2, 1} , 5) returns 2 because 5 shows up twice)
 	 */
 	public static int returnInts(ArrayList <Integer> arrayList, int search)
 	
@@ -117,47 +117,7 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 			}
 		}
 		return count;		
-	}
-	/**
-	 * 8. Alter an ArrayList so that is the backwards version of the ArrayList initially passed (for example, passing {4, 5, 5, 2, 1} changes the array to {1, 2, 5, 5, 4})
-	 */
-	public static void arrayBackwards(ArrayList <Integer> arrayList)
-	{
-		for(int i = arrayList.size() - 2 ; i >= 0; i--)
-		{
-			arrayList.add(arrayList.remove(i));
-		}
-	}
-	/**
-	 * 9. Shift all elements in an ArrayList to the right. (For example, passing {4, 5, 5, 2, 1} changes the array to {1, 4, 5, 5, 2})
-	 */
-	public static void shiftElementsRight(ArrayList <Integer> arrayList)
-	{
-		arrayList.add(0, arrayList.remove(arrayList.size() - 1));
-	}
-	/**
-	 * 10. Use either selection sort or insertion sort to sort an ArrayList. (For example, passing {4, 5, 5, 2, 1} changes the array to {1, 2, 4, 5, 5})
-	 */
-	public static void selectionSort(ArrayList <Integer> arrayList)
-	{
-		{
-			for( int i = 0 ; i < arrayList.size() - 1 ; i++)
-			{
-				int smallest = arrayList.get(i);
-				int index = i;
-				for (int j = i + 1; j < arrayList.size() ; j++)
-				{
-					if (arrayList.get(j) <= smallest)
-					{
-						smallest = arrayList.get(j);
-						index = j;
-					}
-				}
-				
-				if (smallest != arrayList.get(i))
-				{
-					arrayList.set(i, arrayList.set(index, arrayList.get(i)));
-				}
+
 				
 			}
 		}
