@@ -1,6 +1,8 @@
 /**
 * again this was the worst title to create lol
-*/
+*/   	
+import java.util.ArrayList;
+
 public class convertingArrayAlgsToArrayListAlgsProject {
 
 	public static void main(String[] args) {
@@ -32,7 +34,7 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 		return min;
 	}
 	/**
-   * 2. Return the index of the smallest number in the ArrayList. 
+  	 * 2. Return the index of the smallest number in the ArrayList. 
 	 */
 	public static int returnSmallestIndex(ArrayList <Integer> smallestIndex)
 	{
@@ -51,7 +53,7 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 		return smallestIndex.indexOf(min);
 	}
 	/**
-   3. Return the average of all numbers in the ArrayList. 
+   	 * 3. Return the average of all numbers in the ArrayList. 
 	 */
 	public static int returnAverage(ArrayList <Integer> arrayList)
 	{
@@ -63,7 +65,7 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 		return average/arrayList.size();	
 	}
 	/**
-   4. Return true if all numbers in the ArrayList are even, and return false otherwise.
+  	 * 4. Return true if all numbers in the ArrayList are even, and return false otherwise.
 	 */
 	public static boolean evenArray(ArrayList <Integer> arrayList)
 	{
@@ -117,8 +119,9 @@ public class convertingArrayAlgsToArrayListAlgsProject {
 				count++;
 			}
 		}
-		return count;		
+		return count;
 
+		
 				
 			}
 		}
