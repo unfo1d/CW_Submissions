@@ -1,3 +1,6 @@
+/**
+* Inheritence is so cool 
+*/
 public class AdoptionMain {
 
 	public static void main(String[] args) 
