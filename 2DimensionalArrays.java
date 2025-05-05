@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class TwoDArrayIntroAssignment {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
